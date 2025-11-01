@@ -1,0 +1,11 @@
+{
+    "extends": "./tsconfig.json",
+    "compilerOptions": {
+        "outDir": "./dist/client",
+        "rootDir": "./client",
+        "module": "esnext"
+    },
+    "include": [
+        "client/**/*.ts"
+    ]
+}
